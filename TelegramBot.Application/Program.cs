@@ -159,7 +159,7 @@ namespace TelegramBot.Application
 
                 else // Welcome state
                 {
-                    if (message.Text == "🔑 ورود به سامانه")
+                    if (message.Text == "🔑 ورود به سیستم")
                     {
                         await _telegramService.PublicMessages.InsertUserName(message);
                     }
