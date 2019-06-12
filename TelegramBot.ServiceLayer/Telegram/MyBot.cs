@@ -12,6 +12,6 @@ namespace TelegramBot.ServiceLayer.Telegram
         /// <summary>
         /// توکن ربات خود را اینجا وارد نمایید
         /// </summary>
-        public static readonly TelegramBotClient Api = new TelegramBotClient("325317025:AAGyrhnDz66vlw8BZDfRXC8YqSCWp1SOCMQ");
+        public static readonly TelegramBotClient Api = new TelegramBotClient("Enter your token key here");
     }
 }
