@@ -17,7 +17,7 @@ namespace TelegramBot.DataLayer
         //To Handle connection related activities      
         private void SetConnection()
         {
-            string connectionString = "Data Source=.;Initial Catalog=TelegramBot;User ID=saleh; Password=1234";// WebConfigurationManager.ConnectionStrings["SBPMSConnectionString"].ToString();
+            string connectionString = "Enter your connection string here";// WebConfigurationManager.ConnectionStrings["DefaultConnectionString"].ToString();
             conn = new SqlConnection(connectionString);
         }
         public void Dispose()
