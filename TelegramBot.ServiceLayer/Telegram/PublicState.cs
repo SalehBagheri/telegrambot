@@ -55,7 +55,7 @@ namespace TelegramBot.ServiceLayer.Telegram
                 {
                     new [] // first row
                     {
-                        new KeyboardButton("🔑 ورود به سامانه")
+                        new KeyboardButton("🔑 ورود به سیستم")
                     },
                     new [] // second row
                     {
